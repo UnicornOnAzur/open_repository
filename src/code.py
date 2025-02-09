@@ -1,5 +1,4 @@
 import pandas as pd
-import streamlit as st
 
 
 def make_dataframe(col):

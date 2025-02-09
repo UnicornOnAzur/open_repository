@@ -1,0 +1,4 @@
+[project]
+name = "open-repository"
+version = 0.0.1
+dependencies = ["pandas"]
