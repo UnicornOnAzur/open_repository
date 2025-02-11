@@ -13,8 +13,8 @@ def make_graph(col):
     fig = px.treemap(df, path=[px.Constant("world"), 'continent', 'country'], values='pop',
                      color='lifeExp', hover_data=['iso_alpha'],
                      color_continuous_scale='RdBu',
-                     color_continuous_midpoint=np.average(df['lifeExp'], weights=df['pop']), key="public")
-    col.plotly_chart(fig)
+                     color_continuous_midpoint=np.average(df['lifeExp'], weights=df['pop']))
+    col.plotly_chart(fig, key="public")
 
 
 if __name__ == "__main__":
