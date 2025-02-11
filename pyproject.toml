@@ -1,4 +1,4 @@
 [project]
 name = "open_repository"
 version = "0.0.1"
-dependencies = ["pandas"]
+dependencies = ["numpy", "pandas", "plotly"]
